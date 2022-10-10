@@ -1,0 +1,66 @@
+.team-inner {
+  padding-bottom: 100px;
+}
+.team-paragraph {
+  font-family: 'Tinos';
+font-style: normal;
+font-weight: 400;
+font-size: 54px;
+line-height: 62px;
+color: #000000;
+margin-bottom: 107px;
+text-align: center;
+}
+.team-list {
+  display: flex;
+  align-items: center;
+}
+.team-item + .team-item {
+  margin-left: 32px;
+}
+@media only screen and (max-width: 800px) {
+  .team-inner {
+    padding-bottom: 50px;
+  }
+  .team-paragraph {
+    font-family: 'Tinos';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 42px;
+  color: #000000;
+  margin-bottom: 57px;
+  text-align: center;
+  }
+  .team-list {
+    display: flex;
+    align-items: center;
+  }
+  .team-item + .team-item {
+    margin-left: 32px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .team-inner {
+    padding-bottom: 50px;
+  }
+  .team-paragraph {
+    font-family: 'Tinos';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 42px;
+  color: #000000;
+  margin-bottom: 57px;
+  text-align: center;
+  }
+  .team-list {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .team-item + .team-item {
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+}

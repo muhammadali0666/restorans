@@ -1,0 +1,297 @@
+.menyu {
+  background-image: url(../../img/menyu-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.menyu-inner {
+  padding-top: 98px;
+  padding-bottom: 226px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.menyu-paragraraph {
+  font-family: 'Tinos';
+font-style: normal;
+font-weight: 400;
+font-size: 54px;
+line-height: 62px;
+color: #FFFFFF;
+text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+margin-bottom: 139px;
+text-align: center;
+}
+.menyu-list {
+  display: flex;
+  align-items: center;
+}
+.menyu-item {
+  max-width: 350px;
+  padding: 80px 63px 29px 80px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.menyu-item + .menyu-item {
+  margin-left: 30px;
+}
+.menyu-img {
+  margin-bottom: 16px;
+}
+.menyu-paragraph {
+  font-family: 'Tinos';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 30px;
+color: #000000;
+margin-bottom: 17px;
+}
+.menyu-text {
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+color: #000000;
+margin-bottom: 20px;
+}
+.menyu-btn {
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+color: #FFFFFF;
+padding: 14px 68px;
+border: none;
+background: #D67E34;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+@media only screen and (max-width: 1120px) {
+  .menyu-inner {
+    padding-top: 98px;
+    padding-bottom: 226px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .menyu-paragraraph {
+    font-family: 'Tinos';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 62px;
+  color: #FFFFFF;
+  text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 139px;
+  text-align: center;
+  }
+  .menyu-list {
+    display: flex;
+    align-items: center;
+  }
+  .menyu-item {
+    max-width: 350px;
+    padding: 80px 63px 29px 80px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .menyu-item-second {
+    display: none;
+  }
+  .menyu-item + .menyu-item {
+    margin-left: 30px;
+  }
+  .menyu-img {
+    margin-bottom: 16px;
+  }
+  .menyu-paragraph {
+    font-family: 'Tinos';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 30px;
+  color: #000000;
+  margin-bottom: 17px;
+  }
+  .menyu-text {
+    font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 20px;
+  }
+  .menyu-btn {
+    font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 14px 68px;
+  border: none;
+  background: #D67E34;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  }
+}
+@media only screen and (max-width: 740px) {
+  .menyu-inner {
+    padding-top: 68px;
+    padding-bottom: 86px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .menyu-paragraraph {
+    font-family: 'Tinos';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 42px;
+  color: #FFFFFF;
+  text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 139px;
+  text-align: center;
+  }
+  .menyu-list {
+    display: flex;
+    align-items: center;
+  }
+  .menyu-item {
+    max-width: 350px;
+    padding: 50px 33px 29px 30px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .menyu-item + .menyu-item {
+    margin-left: 30px;
+  }
+  .menyu-img {
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  .menyu-item-second {
+    display: none;
+  }
+  .menyu-paragraph {
+    font-family: 'Tinos';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000000;
+  margin-bottom: 17px;
+  text-align: center;
+  }
+  .menyu-text {
+    font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 20px;
+  text-align: center;
+  }
+  .menyu-btn {
+    font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 14px 48px;
+  border: none;
+  background: #D67E34;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  }
+}
+@media only screen and (max-width: 490px) {
+  .menyu-inner {
+    padding-top: 68px;
+    padding-bottom: 86px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .menyu-paragraraph {
+    font-family: 'Tinos';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 42px;
+  color: #FFFFFF;
+  text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 139px;
+  text-align: center;
+  }
+  .menyu-list {
+    display: flex;
+    align-items: center;
+  }
+  .menyu-item {
+    max-width: 350px;
+    padding: 50px 33px 29px 30px;
+    background-color: #fff;
+  }
+  .menyu-item + .menyu-item {
+    margin-left: 30px;
+  }
+  .menyu-img {
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  .menyu-item-third {
+    display: none;
+  }
+  .menyu-paragraph {
+    font-family: 'Tinos';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000000;
+  margin-bottom: 17px;
+  text-align: center;
+  }
+  .menyu-text {
+    font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 20px;
+  text-align: center;
+  }
+  .menyu-btn {
+    font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 14px 48px;
+  border: none;
+  background: #D67E34;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  }
+}

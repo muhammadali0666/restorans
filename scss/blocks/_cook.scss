@@ -1,0 +1,331 @@
+.cook-inner {
+  padding-bottom: 122px;
+}
+.cook-list {
+  display: flex;
+  align-items: center;
+  transform: translate(0px, -100px);
+}
+.cook-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  max-width: 349px;
+  background: #FFFFFF;
+box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+}
+.cook-item + .cook-item {
+  margin-left: 31px;
+}
+.cook-img {
+  margin-top: 35px;
+}
+.cook-p {
+  font-family: 'Tinos';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 30px;
+color: #2C2C2C;
+}
+.cook-span {
+  color: #BC9060;
+}
+.cook-text {
+  font-family: 'Tinos';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 30px;
+text-align: center;
+color: #656363;
+}
+.cook-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cook-box-in {
+  max-width: 444px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.history {
+ color: #D67E34;
+}
+.cook-bottom-p {
+  font-family: 'Tinos';
+font-style: normal;
+font-weight: 400;
+font-size: 54px;
+line-height: 62px;
+color: #000000;
+margin-bottom: 21px;
+}
+.cook-bottom-text {
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+color: #656363;
+margin-bottom: 39px;
+}
+.cook-bottom-list {
+  display: flex;
+  align-items: center;
+}
+.cook-bottom-item + .cook-bottom-item {
+  margin-left: 30px;
+}
+.cook-bottom-item-paragraph {
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 54px;
+text-align: center;
+color: #BC9060;
+}
+.cook-bottom-item-p {
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+text-align: center;
+color: #000000;
+}
+.cook-box-img {
+margin-left: 40px;
+}
+@media only screen and (max-width: 1035px) {
+  .cook-inner {
+    padding-bottom: 90px;
+  }
+  .cook-list {
+    display: flex;
+    align-items: center;
+    transform: translate(0px, -100px);
+  }
+  .cook-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 349px;
+  }
+  .cook-item + .cook-item {
+    margin-left: 21px;
+  }
+  .cook-img {
+    margin-top: 35px;
+  }
+  .cook-p {
+  font-size: 18px;
+  line-height: 20px;
+  }
+  .cook-text {
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  }
+  .cook-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .cook-box-in {
+    max-width: 444px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cook-bottom-p {
+  font-size: 40px;
+  line-height: 42px;
+  margin-bottom: 21px;
+  }
+  .cook-bottom-text {
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  margin-bottom: 30px;
+  }
+  .cook-bottom-list {
+    display: flex;
+    align-items: center;
+  }
+  .cook-bottom-item + .cook-bottom-item {
+    margin-left: 30px;
+  }
+  .cook-bottom-item-paragraph {
+  font-size: 30px;
+  line-height: 34px;
+  text-align: center;
+  }
+  .cook-bottom-item-p {
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  }
+  .cook-box-img {
+  margin-left: 0px;
+  margin-top: 40px;
+  }
+}
+@media only screen and (max-width: 999px) {
+  .cook-inner {
+    padding-bottom: 70px;
+  }
+  .cook-list {
+    display: flex;
+    align-items: center;
+    transform: translate(0px, -80px);
+  }
+  .cook-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    max-width: 349px;
+  }
+  .cook-item + .cook-item {
+    margin-left: 21px;
+  }
+  .cook-img {
+    margin-top: 25px;
+  }
+  .cook-p {
+  font-size: 14px;
+  line-height: 16px;
+  }
+  .cook-text {
+    font-size: 14px;
+    line-height: 16px;
+  text-align: center;
+  }
+  .cook-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .cook-box-in {
+    max-width: 444px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cook-bottom-p {
+  font-size: 40px;
+  line-height: 42px;
+  margin-bottom: 21px;
+  }
+  .cook-bottom-text {
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  margin-bottom: 30px;
+  }
+  .cook-bottom-list {
+    display: flex;
+    align-items: center;
+  }
+  .cook-bottom-item + .cook-bottom-item {
+    margin-left: 30px;
+  }
+  .cook-bottom-item-paragraph {
+  font-size: 30px;
+  line-height: 34px;
+  text-align: center;
+  }
+  .cook-bottom-item-p {
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  }
+  .cook-box-img {
+  margin-left: 0px;
+  margin-top: 40px;
+  }
+}
+@media only screen and (max-width: 570px) {
+  .cook-inner {
+    padding-bottom: 60px;
+  }
+  .cook-list {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transform: translate(0px, -40px);
+  }
+  .cook-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    max-width: 349px;
+  }
+  .cook-item + .cook-item {
+    margin-left: 0px;
+    margin-top: 25px;
+  }
+  .cook-img {
+    margin-top: 25px;
+  }
+  .cook-p {
+  font-size: 14px;
+  line-height: 16px;
+  }
+  .cook-text {
+    font-size: 14px;
+    line-height: 16px;
+  text-align: center;
+  }
+  .cook-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .cook-box-in {
+    max-width: 444px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cook-bottom-p {
+  font-size: 30px;
+  line-height: 32px;
+  margin-bottom: 21px;
+  }
+  .cook-bottom-text {
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  margin-bottom: 30px;
+  }
+  .cook-bottom-list {
+    display: flex;
+    align-items: center;
+  }
+  .cook-bottom-item + .cook-bottom-item {
+    margin-left: 30px;
+  }
+  .cook-bottom-item-paragraph {
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  }
+  .cook-bottom-item-p {
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  }
+  .cook-box-img {
+  margin-left: 0px;
+  margin-top: 40px;
+  }
+}

@@ -1,0 +1,222 @@
+.product-inner {
+  padding-top: 132px;
+  padding-bottom: 152px;
+}
+.product-paragraph {
+  font-family: 'Tinos';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 62px;
+  color: #000000;
+  margin-bottom: 139px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.span-product {
+color: #D67E34;
+}
+.product-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.product-item {
+  display: flex;
+  align-items: center;
+}
+.product-item + .product-item {
+  margin-top: 29px;
+}
+.product-item-p {
+  font-family: 'Tinos';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 24px;
+color: #000000;
+}
+.product-item-text {
+  font-family: 'Tinos';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 24px;
+color: #000000;
+}
+@media only screen and (max-width: 1080px) {
+  .product-inner {
+    padding-top: 72px;
+    padding-bottom: 82px;
+  }
+  .product-paragraph {
+    font-family: 'Tinos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 79px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .span-product {
+  color: #D67E34;
+  }
+  .product-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .product-list {
+    margin-top: 40px;
+  }
+  .product-item {
+    display: flex;
+    align-items: center;
+  }
+  .product-item + .product-item {
+    margin-top: 29px;
+  }
+  .product-item-p {
+    margin-left: 11px;
+    font-family: 'Tinos';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 24px;
+  color: #000000;
+  }
+  .product-item-text {
+    margin-left: 11px;
+    font-family: 'Tinos';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 24px;
+  color: #000000;
+  }
+}
+@media only screen and (max-width: 557px) {
+  .product-inner {
+    padding-top: 72px;
+    padding-bottom: 82px;
+  }
+  .product-paragraph {
+    font-family: 'Tinos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 49px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .span-product {
+  color: #D67E34;
+  }
+  .product-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .product-list {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .product-item {
+    display: flex;
+    align-items: center;
+  }
+  .product-item + .product-item {
+    margin-top: 29px;
+  }
+  .product-item-img-next {
+    display: none;
+  }
+  .product-item-p {
+    margin-left: 11px;
+    font-family: 'Tinos';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 24px;
+  color: #000000;
+  }
+  .product-item-text {
+    margin-left: 11px;
+    font-family: 'Tinos';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 24px;
+  color: #000000;
+  }
+}
+@media only screen and (max-width: 351px) {
+  .product-inner {
+    padding-top: 72px;
+    padding-bottom: 82px;
+  }
+  .product-paragraph {
+    font-family: 'Tinos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 32px;
+    color: #000000;
+    margin-bottom: 49px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .span-product {
+  color: #D67E34;
+  }
+  .product-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .product-list {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .product-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .product-item + .product-item {
+    margin-top: 29px;
+  }
+  .product-item-img-next {
+    display: none;
+  }
+  .product-item-p {
+    margin-left: 11px;
+    font-family: 'Tinos';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 24px;
+  color: #000000;
+  }
+  .product-item-text {
+    margin-left: 11px;
+    font-family: 'Tinos';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 24px;
+  color: #000000;
+  }
+}
